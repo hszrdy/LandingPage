@@ -62,3 +62,19 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.section2 h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.section2 .row-containers {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 .row-containers .box-container {
+  border: 1px solid #13a8ec;
+}
