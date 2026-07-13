@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 header {
@@ -12,7 +15,8 @@ header {
   color: #f9faf8;
 }
 
-.logo {
+.logo h1 {
+  font-size: 24px;
 }
 
 .header-links {
@@ -20,9 +24,41 @@ header {
   justify-content: space-evenly;
   gap: 25px;
   list-style: none;
+  font-size: 18px;
 }
 
 .header-links a {
   text-decoration: none;
   color: #f9faf8;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+  height: 500px;
+  background-color: #1f2937;
+  padding: 10px 100px;
+}
+
+.section1 h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.section1 h2 {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f7;
+  color: #f9faf8;
+  border: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
 }
