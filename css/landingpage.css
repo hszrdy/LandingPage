@@ -54,7 +54,7 @@ header {
   color: #e5e7eb;
 }
 
-button {
+.left-container button {
   background-color: #3882f7;
   color: #f9faf8;
   border: none;
@@ -120,4 +120,43 @@ button {
 .section3 h2 {
   align-self: flex-end;
   color: #1f2937;
+}
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.call-to-action {
+  color: #e5e7eb;
+}
+
+.section4 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 50px 100px;
+}
+
+.section4 .container button {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border-color: #e5e7eb;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px;
 }
