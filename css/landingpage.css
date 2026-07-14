@@ -45,6 +45,7 @@ header {
 .section1 h1 {
   font-size: 48px;
   color: #f9faf8;
+  font-weight: 900;
 }
 
 .section1 h2 {
@@ -75,6 +76,31 @@ button {
   align-items: center;
 }
 
-.section2 .row-containers .box-container {
-  border: 1px solid #13a8ec;
+.section2 .box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-wrap: wrap;
+  width: 200px;
+}
+
+.section2 h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.box-container p {
+  text-align: center;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.section2 .box-container .box {
+  border: 5px solid #3882f7;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
 }
