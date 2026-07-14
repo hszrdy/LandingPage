@@ -96,7 +96,28 @@ button {
 
 .section2 .box-container .box {
   border: 5px solid #3882f7;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 200px;
   height: 200px;
+}
+
+.section3 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 500px;
+}
+
+.section3 h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.section3 h2 {
+  align-self: flex-end;
+  color: #1f2937;
 }
